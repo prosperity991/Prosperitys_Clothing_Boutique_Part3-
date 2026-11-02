@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="women's boutique, dresses, occasion wear, matric dance dresses, wedding guest dresses, heels, sandals, handbags, Krugersdorp fashion">
+  <meta name="description" content="Prosperity's Clothing Boutique - fashionable women's clothing, shoes and accessories in Krugersdorp.">
+  <title>Prosperity's Clothing Boutique | Home</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Semantic page structure: header, nav, main sections and footer are used instead of generic divs. -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html" aria-label="Prosperity's Clothing Boutique home">
+        <span class="brand-mark">P</span>
+        <span>Prosperity's <strong>Boutique</strong></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+        <span></span><span></span><span></span>
+        <span class="sr-only">Open navigation menu</span>
+      </button>
+
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="shop.html">Shop</a>
+        <a href="new-arrivals.html">New Arrivals</a>
+        <a href="enquiry.html">Enquire</a>
+        <a href="contact.html">Contact</a>
+        <a class="cart-link" href="cart.html">Cart <span class="cart-count" aria-label="items in cart">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">STYLE • CONFIDENCE • PROSPERITY</p>
+          <h1 id="hero-title">Fashion that makes every moment feel special.</h1>
+          <p class="lead">Discover feminine dresses, elegant occasion wear, stylish shoes and accessories selected for the modern woman.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="shop.html">Shop the collection</a>
+            <a class="btn btn-secondary" href="about.html">Our story</a>
+          </div>
+          <ul class="feature-list" aria-label="Boutique benefits">
+            <li><strong>Curated style</strong><span>Pieces selected with confidence in mind.</span></li>
+            <li><strong>Local boutique</strong><span>Serving shoppers in Krugersdorp.</span></li>
+            <li><strong>Occasion ready</strong><span>Looks for everyday and special events.</span></li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-label="Boutique fashion illustration">
+          <img src="assets/hero.svg" alt="Illustration of a fashionable woman wearing a pink dress">
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="categories-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EXPLORE</p>
+            <h2 id="categories-title">Shop by category</h2>
+          </div>
+          <a class="text-link" href="shop.html">View all products →</a>
+        </div>
+
+        <div class="category-grid">
+          <a class="category-card" href="shop.html?category=dresses">
+            <img src="assets/dress.svg" alt="Pink dress">
+            <span>Dresses</span>
+          </a>
+          <a class="category-card" href="shop.html?category=occasion">
+            <img src="assets/gown.svg" alt="Elegant occasion gown">
+            <span>Occasion Wear</span>
+          </a>
+          <a class="category-card" href="shop.html?category=shoes">
+            <img src="assets/shoes.svg" alt="Women's shoes">
+            <span>Shoes</span>
+          </a>
+          <a class="category-card" href="shop.html?category=accessories">
+            <img src="assets/handbag.svg" alt="Women's handbag">
+            <span>Accessories</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section soft-section" aria-labelledby="featured-title">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">BOUTIQUE FAVOURITES</p>
+            <h2 id="featured-title">Featured pieces</h2>
+          </div>
+          <a class="text-link" href="new-arrivals.html">See new arrivals →</a>
+        </div>
+        <div id="featured-products" class="product-grid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <!-- JavaScript tabs: users can switch between styling guidance panels. -->
+    <section class="section" aria-labelledby="style-tabs-title">
+      <div class="container">
+        <div class="section-heading centered">
+          <div><p class="eyebrow">STYLE INSPIRATION</p><h2 id="style-tabs-title">A look for every occasion</h2></div>
+        </div>
+        <div class="tabs" role="tablist" aria-label="Style inspiration">
+          <button class="tab-button active" type="button" role="tab" aria-selected="true" aria-controls="tab-daily" id="tab-button-daily" data-tab="daily">Everyday</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="tab-events" id="tab-button-events" data-tab="events">Special events</button>
+          <button class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="tab-accessories" id="tab-button-accessories" data-tab="accessories">Accessories</button>
+        </div>
+        <div class="tab-panel" id="tab-daily" role="tabpanel" aria-labelledby="tab-button-daily">
+          <h3>Everyday confidence</h3><p>Explore versatile dresses, comfortable sandals and easy-to-style pieces for your daily wardrobe.</p>
+        </div>
+        <div class="tab-panel" id="tab-events" role="tabpanel" aria-labelledby="tab-button-events" hidden>
+          <h3>Make the moment special</h3><p>Find occasion dresses and elegant looks for matric dances, weddings and celebrations.</p>
+        </div>
+        <div class="tab-panel" id="tab-accessories" role="tabpanel" aria-labelledby="tab-button-accessories" hidden>
+          <h3>Complete your outfit</h3><p>Finish your look with handbags, heels and accessories selected to complement your style.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery images open in an accessible lightbox through JavaScript. -->
+    <section class="section soft-section" aria-labelledby="gallery-title">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">THE BOUTIQUE EDIT</p><h2 id="gallery-title">Style gallery</h2></div>
+          <p class="status-message">Select an image to view it larger.</p>
+        </div>
+        <div class="gallery-grid">
+          <button class="gallery-item" type="button" data-full="assets/dress.svg" data-caption="Elegant dresses"><img src="assets/dress.svg" alt="Illustration of an elegant pink dress"><span>Elegant dresses</span></button>
+          <button class="gallery-item" type="button" data-full="assets/gown.svg" data-caption="Occasion wear"><img src="assets/gown.svg" alt="Illustration of an occasion gown"><span>Occasion wear</span></button>
+          <button class="gallery-item" type="button" data-full="assets/shoes.svg" data-caption="Shoes and heels"><img src="assets/shoes.svg" alt="Illustration of women's heels"><span>Shoes and heels</span></button>
+          <button class="gallery-item" type="button" data-full="assets/handbag.svg" data-caption="Handbags"><img src="assets/handbag.svg" alt="Illustration of a structured handbag"><span>Handbags</span></button>
+        </div>
+      </div>
+    </section>
+
+    <dialog class="lightbox" id="gallery-lightbox" aria-label="Image preview">
+      <button class="lightbox-close" type="button" aria-label="Close image preview">×</button>
+      <img id="lightbox-image" src="" alt="">
+      <p id="lightbox-caption"></p>
+    </dialog>
+
+    <section class="cta-section" aria-labelledby="cta-title">
+      <div class="container cta-card">
+        <div>
+          <p class="eyebrow">VISIT US</p>
+          <h2 id="cta-title">Find your next favourite look.</h2>
+          <p>Visit Prosperity's Clothing Boutique in Krugersdorp or contact us about your next outfit.</p>
+        </div>
+        <a class="btn btn-dark" href="contact.html">Contact the boutique</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section>
+        <h2>Prosperity's Boutique</h2>
+        <p>Fashion, confidence and style for every occasion.</p>
+      </section>
+      <section>
+        <h2>Quick links</h2>
+        <ul class="footer-links">
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="new-arrivals.html">New Arrivals</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Store information</h2>
+        <p>Krugersdorp, Gauteng, South Africa</p>
+        <p><a href="mailto:hello@prosperitysboutique.co.za">hello@prosperitysboutique.co.za</a></p>
+      </section>
+    </div>
+    <div class="footer-bottom">
+      <div class="container"><p>&copy; 2026 Prosperity's Clothing Boutique. Academic website project.</p></div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

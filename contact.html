@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="women's boutique, dresses, occasion wear, matric dance dresses, wedding guest dresses, heels, sandals, handbags, Krugersdorp fashion">
+  <meta name="description" content="Contact Prosperity's Clothing Boutique in Krugersdorp.">
+  <title>Contact | Prosperity's Clothing Boutique</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Poppins:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ClothingStore",
+    "name": "Prosperity's Clothing Boutique",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Krugersdorp",
+      "addressRegion": "Gauteng",
+      "addressCountry": "ZA"
+    },
+    "areaServed": "Krugersdorp, Gauteng, South Africa"
+  }
+  </script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html"><span class="brand-mark">P</span><span>Prosperity's <strong>Boutique</strong></span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav"><span></span><span></span><span></span><span class="sr-only">Open navigation menu</span></button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary navigation">
+        <a href="index.html">Home</a><a href="about.html">About</a><a href="shop.html">Shop</a><a href="new-arrivals.html">New Arrivals</a><a href="enquiry.html">Enquire</a>
+        <a class="active" href="contact.html">Contact</a><a class="cart-link" href="cart.html">Cart <span class="cart-count">0</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-banner">
+      <div class="container">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h1>Contact the boutique</h1>
+        <p>Questions about products, sizing or visiting the store? Send us a message.</p>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="contact-title">
+      <div class="container contact-grid">
+        <section>
+          <p class="eyebrow">CONTACT DETAILS</p>
+          <h2 id="contact-title">We would love to hear from you.</h2>
+          <address class="contact-details">
+            <p><strong>Location</strong><br>Krugersdorp, Gauteng, South Africa</p>
+            <p><strong>Email</strong><br><a href="mailto:hello@prosperitysboutique.co.za">hello@prosperitysboutique.co.za</a></p>
+            <p><strong>Hours</strong><br>Monday – Saturday: 09:00 – 17:00</p>
+          </address>
+          <a class="btn btn-secondary" href="https://www.google.com/maps/search/?api=1&query=Krugersdorp%2C%20Gauteng%2C%20South%20Africa" target="_blank" rel="noopener">Open Krugersdorp on Google Maps</a>
+        </section>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <div class="form-row">
+            <label for="name">Full name
+              <input id="name" name="name" type="text" required minlength="2" maxlength="60" autocomplete="name">
+            </label>
+            <label for="email">Email address
+              <input id="email" name="email" type="email" required maxlength="100" autocomplete="email">
+            </label>
+          </div>
+          <label for="subject">Subject
+            <select id="subject" name="subject" required><option value="">Choose a message type</option><option>Product question</option><option>Order enquiry</option><option>General message</option><option>Feedback</option></select>
+          </label>
+          <label for="message">Message
+            <textarea id="message" name="message" rows="6" minlength="10" maxlength="1000" required></textarea>
+          </label>
+          <button class="btn btn-primary" type="submit">Send message</button>
+          <p id="form-message" class="status-message" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section soft-section" aria-labelledby="location-title">
+      <div class="container">
+        <p class="eyebrow">FIND THE BOUTIQUE</p><h2 id="location-title">Our area</h2>
+        <p>Explore Krugersdorp, Gauteng. The marker indicates the town area and is not a verified shop-front address.</p>
+        <div id="boutique-map" class="map-frame" role="region" aria-label="Map showing Krugersdorp, Gauteng"></div>
+        <noscript><p>JavaScript is required to display the interactive map. <a href="https://www.openstreetmap.org/search?query=Krugersdorp%2C%20Gauteng" target="_blank" rel="noopener">View Krugersdorp on OpenStreetMap</a>.</p></noscript>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <section><h2>Prosperity's Boutique</h2><p>Fashion, confidence and style for every occasion.</p></section>
+      <section><h2>Quick links</h2><ul class="footer-links"><li><a href="shop.html">Shop</a></li><li><a href="new-arrivals.html">New Arrivals</a></li><li><a href="about.html">About</a></li></ul></section>
+      <section><h2>Store information</h2><p>Krugersdorp, Gauteng, South Africa</p><p><a href="mailto:hello@prosperitysboutique.co.za">hello@prosperitysboutique.co.za</a></p></section>
+    </div>
+    <div class="footer-bottom"><div class="container"><p>&copy; 2026 Prosperity's Clothing Boutique. Academic website project.</p></div></div>
+  </footer>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="script.js"></script>
+</body>
+</html>

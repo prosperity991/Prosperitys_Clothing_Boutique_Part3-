@@ -1,0 +1,37 @@
+PROSPERITY'S CLOTHING BOUTIQUE — PART 3 SUBMISSION CHECKLIST
+
+PROJECT FILES
+[ ] Keep all seven HTML pages in the project root.
+[ ] Keep style.css and script.js in the project root.
+[ ] Keep the assets folder with all SVG illustrations.
+[ ] Include README.md, robots.txt, sitemap.xml and _headers.
+
+FUNCTIONALITY
+[ ] Test Home, About, Shop, New Arrivals, Enquire, Contact and Cart navigation.
+[ ] Test mobile navigation and browser Back/Forward.
+[ ] Test Home page tabs.
+[ ] Test About page FAQ accordion.
+[ ] Open and close gallery images using the lightbox.
+[ ] Search, filter and sort shop products.
+[ ] Add products to cart, change quantities and remove products.
+[ ] Refresh and confirm cart data persists.
+[ ] Test the Krugersdorp interactive map with internet access.
+[ ] Submit invalid and valid enquiry/contact form data.
+[ ] Confirm the email recipient is correct and activate FormSubmit before live use.
+
+SEO / RESPONSIVE / SECURITY
+[ ] Check page titles, meta descriptions, heading order and image alt text.
+[ ] Replace the proposed domain in sitemap.xml and robots.txt with the real deployed URL.
+[ ] Test desktop, tablet and mobile layouts.
+[ ] Deploy using HTTPS.
+[ ] Check robots.txt and sitemap.xml on the live website.
+
+GITHUB AND PUBLISHING
+[ ] Use the descriptive GitHub commits in README.md.
+[ ] Push the final code to the remote GitHub repository.
+[ ] Deploy the project to Netlify or GitHub Pages.
+[ ] Test the live URL after deployment.
+[ ] Submit the GitHub repository URL and deployed website URL to the LMS.
+
+IMPORTANT
+This is a static academic prototype. It does not process real payments. The map marks the Krugersdorp town area, not a confirmed street address. Verify the email recipient and activate the form service before relying on email delivery.
